@@ -1,0 +1,16 @@
+{
+  "name": "unclankify",
+  "owner": {
+    "name": "rymarren"
+  },
+  "metadata": {
+    "description": "Strips AI clank-speak from Claude's writing"
+  },
+  "plugins": [
+    {
+      "name": "unclankify",
+      "description": "Tells Claude to drop AI-flavored clank-speak and just write plainly.",
+      "source": "./"
+    }
+  ]
+}

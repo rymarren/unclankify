@@ -1,0 +1,14 @@
+{
+  "name": "unclankify",
+  "description": "Tells Claude to drop AI-flavored clank-speak — invented jargon, fake-precision qualifiers, performative hedging, and service-speak — and just write plainly.",
+  "version": "0.1.0",
+  "author": {
+    "name": "rymarren"
+  },
+  "skills": [
+    "./skills/unclankify"
+  ],
+  "commands": [
+    "./commands/unclankify.md"
+  ]
+}

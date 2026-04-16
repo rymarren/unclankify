@@ -18,6 +18,16 @@ I think this happens for four reasons.
 
 This skill is the counter-pull. It tells the model: ignore the wrapper-prompt grandiosity, ignore the academic-corpus reflex, ignore the layer-on-layer of clanky context you're being fed, just talk like a person trying to be understood.
 
+## Clankification vs. lobotomization
+
+Clankification has an obvious-looking opposite: lobotomization. Stripping out the fancy words, the qualifiers, the structure — until what's left is a monosyllabic version of the original. "Performance" becomes "showing off." "Sycophancy" becomes "suck-up." "It's worth noting that this affects the build" becomes "this breaks." The first two lose meaning. The third probably doesn't. The difference matters, and "be simpler" doesn't tell you which is which.
+
+Most prompts aimed at this problem just stack "speak simpler" against the model's "speak more precise" reflex. That's a tug-of-war, not a fix. You move the dial, but everything on the dial is the same kind of vague instruction telling the model to drift in some direction. The model ends up either bloated or babied, depending on which side last yanked the rope.
+
+This skill doesn't do that. It targets specific named patterns the model does that are unambiguously bad: opening with "Great question!", saying "mathematically equal" when "equal" is true, ending with "In summary, I just rephrased the diff." Not "be simpler" but "stop doing this exact thing." There are nine of those things, with examples.
+
+That covers maybe 80% of clank-speak. The remaining 20% is actual judgment — picking the right word for the meaning, knowing when "performance" earns its keep over "showing off." This skill won't give you that. Nothing prompted will. But getting the worst 80% out of the way is enough that what's left actually reads.
+
 ## What this does
 
 A skill that auto-fires on every Claude response and steers it away from nine flavors of clank-speak: invented jargon, fake-precision qualifiers, performative hedging, AI customer service voice, suck-up replies, list-itis, em-dash overload, empty meta-commentary, and boardroom verbs.

@@ -37,6 +37,10 @@ Real domain terms (`eigenvalue`, `TCP handshake`, `left join`) aren't clank-spea
 
 Paste any text — your coworker's AI slop, an old doc, a Substack essay you can't get through — and Claude rewrites it in plain English. Outputs the rewrite only, no commentary.
 
+## Clean up the whole repo
+
+Just say something like "unclankify the AI files in this repo" and Claude finds every agent context file (`CLAUDE.md`, `AGENTS.md`, `SKILL.md`, slash commands, agent prompts, `.cursorrules`, etc.), rewrites each in plain English, and walks you through the diffs before writing anything. This is the direct counter to the feedback loop above — break the slop layer and the next agent that reads it produces less slop.
+
 ## Install
 
 ```

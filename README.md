@@ -14,7 +14,9 @@ I think this happens for three reasons.
 
 **Three: old prompting culture is still in the water.** The era where you wrote 800-word system prompts to make the model follow a precise workflow was a hack for a thing AI is bad at. AI is bad at following precise processes. The right tool for a precise process is code. Code follows process. AI is for the general stuff that doesn't fit a process. We don't need the elaborate "you must always do X then Y" prompting anymore — just write the workflow as code and let the model be a model. The leftover habit from that era is part of why both prompts and outputs sound so labored.
 
-This skill is the counter-pull. It tells the model: ignore the wrapper-prompt grandiosity, ignore the academic-corpus reflex, just talk like a person who is trying to be understood.
+**Four: clankification is a feedback loop.** Every prompt, skill file, agent description, and "context" markdown someone writes tends to come out in the same labored register — partly because they're imitating AI, partly because they used AI to write it. The agent reads that clanky context and produces clankier output. That output gets pasted into a doc, which becomes someone else's reference, which becomes another agent's input. Slop generates slop. Wrapper prompts on top of agent prompts on top of skill files on top of context docs — every layer adds more "you must always," "ensure that you," "it is critically important that," and the model dutifully reflects all of it back. The system gets clankier with every turn. The whole stack is slopifying itself in real time.
+
+This skill is the counter-pull. It tells the model: ignore the wrapper-prompt grandiosity, ignore the academic-corpus reflex, ignore the layer-on-layer of clanky context you're being fed, just talk like a person trying to be understood.
 
 ## What this does
 

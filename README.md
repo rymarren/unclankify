@@ -6,7 +6,7 @@ Tells Claude to stop talking like an idiot trying to sound smart.
 
 Default AI prose is bad. It's hedged, jargon-filled, and pads every simple thought with serious-sounding phrases that don't mean anything. "Two-fetch overlay pattern" instead of "code that fetched two things." "Mathematically equal" instead of "equal." "It's worth noting that this may potentially affect" instead of "this affects." It's exhausting to read and it's hiding the fact that the underlying thought is simple.
 
-I think this happens for three reasons.
+I think this happens for four reasons.
 
 **One: AI was trained by copying humans, and the humans who wrote the most are the ones who liked sounding smart** — academics, columnists, McKinsey decks. Most of being a person isn't language anyway. We're bags of meat on a rock, mostly running on instinct and the simple stuff our bodies know. The writing on top is the smallest, showiest part of being a human, and most of it is performance. But it's most of what AI was trained on, so it's what AI imitates.
 
